@@ -1,0 +1,72 @@
+.title{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 100;
+    margin-bottom: 0%;
+    margin-top: 0;
+    border-top: 50px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: white;
+    margin-top: 0;
+}
+
+.title img{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    margin: 0;
+    background-color: white;
+    background-image: url(tiramisu.png);
+    background-size: 40%;
+}
+
+.intro{
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier, monospace;
+    border-bottom: 40px solid white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    justify-content: space-evenly;
+}
+
+
+.box{
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    display: flex;
+    width: 386px;
+    height: 97px;
+}
+
+.ss {
+    width: 40px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.ss:hover {background-image: url("Star\ 2.svg"); 
+        background-size: 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 1;}

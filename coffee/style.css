@@ -1,0 +1,105 @@
+.title{
+    text-align: center;
+    text-shadow: -1px 0 rgb(115, 113, 113), 0 1px rgb(115, 113, 113), 1px 0 rgb(115, 113, 113), 0 -1px rgb(115, 113, 113);
+    font-size: 60px;
+    font-family: monospace;
+    font-weight: 100;
+    margin-bottom: 0%;
+    margin-top: 0;
+    border-top: 50px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: white;
+    margin-top: 0;
+}
+
+.title img{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: white;
+    margin: 0;
+    background-image: url(tiramisu.png);
+    background-size: 40%;
+}
+
+.intro{
+    text-align: center;
+    font-size: 25px;
+    font-family: Courier, monospace;
+    border-bottom: 40px solid white;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    justify-content: space-evenly;
+    margin-top: 0;
+}
+
+.desc{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+}
+
+.box img{
+    border-top: 30px solid white;
+    border-bottom: 70px solid white;
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+}
+
+.box{
+    border: 1px;
+    border-color: black;
+    border-style: dashed;
+    margin: 5px;
+    display: flex;
+    align-items: flex-start;
+    column-gap: 10px;
+    background-color: rgb(254, 246, 235);
+    box-sizing: content-box;
+    width: 700px;
+    padding-right: 10px;
+    box-shadow: 3px 5px 4px #8e8d8d;
+}
+
+.end{
+    display: flex;
+    justify-content: center;
+}
+
+.rating img{
+    border: 0;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 5px;
+    width: 45%;
+    height: 45%;
+
+}
+
+.desc{
+    display: flexbox;
+    flex-direction: column;
+}
+
+.descrip{
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+
+.sticker img{
+    border: 0;
+    width: 20%;
+    height: 20%;
+    margin-top: 5px;
+}
